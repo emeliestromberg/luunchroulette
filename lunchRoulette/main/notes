@@ -1,0 +1,110 @@
+
+hej och välkommen
+check    - visa vilka alternativ man kan välja mellan
+check    - input som strängar 
+
+alternativ
+check    - lägga till namn
+check        - snygg listNames.add
+check        - datorn ska minnas det inlagda namnet     <---
+check        - komma tillbaka till spelet
+check            - skriv stop som input och så avslutas den funktionen
+
+check    - ta bort namn
+check        - fixa så att inputen läses in och matchas
+check            - datorn ska minnas att namnet är borttaget    <---
+check        - komma tillbaka till spelet
+
+    - spela
+check   - välja tre random namn 
+check        - när namnen har valts ska de tas bort ur listan för den omgången
+check        - tillbaka till att snurra hjulet igen
+check       - välja tre random personer
+check            - for() som kör tre gånger
+check            - varje gång randomizas ett namn och läggs till i en laglista
+check            - printa namnen i laglistan
+                - om alla lag ska presenteras samtidigt
+check                    - skapa nya listor själv om en lista blir full med tre pers
+        - strukturen
+check            - presentera en grupp om tre i taget. man måste aktivit snurra för varje ny grupp?
+            - presentera alla grupper samtidigt?
+        - inte fler rundor
+            - skriva kör igen eller avsluta varje gång?
+typ            - ha ett safeword som avlsutar spelet om man skriver det som input wherever?
+    
+    - inte spela
+check        - säga hejdå
+check            - boolean som gör att man kör tills quit input
+check            - for fast med .equals för quit på alltihop
+
+övrigt 
+check    - snyggare lista som en linje och inte som en list.add
+    - ha en quitfunktion där man måste säga thank you för att man ska få avsluta. 
+        - if else {}
+            - välj en random av flera svarsrepliker
+                - tex vad är det magiska ordet, var lite artig, kan du säga tack till fina datorn som hjälpte till, hallå hörru säg tack 
+
+check    - om man see list så ser man inte originallistan utan alla ändringar som man har gjort kommer med. tex att man har en grupp som tas bort från listan
+check    - importera en uppdaterad extern lista för de som jobbar i Cloud just nu
+        - hämta listan, skapa egen lista att köra med
+        - två listor för att motverka borttagning från fel lista
+        - cheka mot listan om de redan har blivit valda
+            - en till lista med alla som blivit valda så kan man läsa av den listan och veta om de blivit valda innan
+        - skapa upp en ny lista så att baslistan för namnen inte ändras
+        - parameter till varje namn i listan med isAdded som är set till false från början. När personen har valts så blir det true och personen blir oväljbar
+
+
+    - be om lösning till det vi vill göra
+
+
+krav kvar
+check    - inga ledare får vara med
+check    - slumpa ett ämne att prata om
+        - större check ins typ
+check    - lägga in alla i cloud teamet
+
+
+check    spara som txt
+        kanske wordfil
+
+check
+fixa inskrivningen när man lägger till ett namn
+just nu läggs namnet som skannas in till i listan och det är bra lista
+Det som är är att listan skrivs in i textfilen, men då kan man inte använda den igen för namnen hamnar på samma rad
+och då tror programmet att det bara finns ett superlångt namn.
+    - Alternativ lösning
+        - Göra så att namnlistan efter att man laggt till en ny medlemm skannas
+          så att man kan lägga in namnen på en lista med en new line inför varje scan.
+            - Då får man säga att den ska skanna ett namn till kommatecknet för då är namnet slut
+              och det ska skannas in ett nytt namn.
+
+
+check kunna printa namn med å ä ö é
+
+
+// else {
+            // System.out.println("\nSorry, that is not an option. Put your glasses on
+            // smh\n");
+            // }
+
+
+
+            tanke
+                - flytta på br för att den ska läsa in listan varje gång man spelar inte bara varje gång man startar om spelet
+
+
+
+nästa steg
+    - Dela upp det i klasser så att programmet är snyggare
+        - Metoder
+        - Andra klasser
+
+check    - Printa namnen under play snyggt
+check        - en fin for-loop kanske
+
+    - Spara in vilka som redan har gått på lunch
+
+    - Kunna presentera vilka som redan har varit på lunch
+
+    - Kunna köra en grupp med färre än tre om det bara finns två kvar som inte har fått en grupp än 
+        - Kanske slumpa någon som redan har varit ute med en grupp
